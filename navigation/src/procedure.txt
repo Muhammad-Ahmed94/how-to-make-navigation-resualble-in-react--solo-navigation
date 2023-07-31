@@ -1,0 +1,10 @@
+first step ;
+create context file createcontext
+define current page state window.location.pathname, create useEffect and add function to watc for popstate event handler prevent vorwser to reload and setcurrent path to window.location.pathname
+ create your navigate funtion and pass down window.history.pushstate set currnet parth to {to}
+
+passdown your value to context provider and main jsx 
+
+then craete link component 
+
+use navigation context with usecontext create <a></a> and pass down children and functoin handleclick 
